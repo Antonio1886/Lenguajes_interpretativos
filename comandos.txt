@@ -20,3 +20,5 @@ rm  Elimina archivos
   rm -r  Nos permite eliminar carpetas y su contenido
 git config --global user.email jonmircha@gmail.com
 Flechas de dirección  Historial de comandos ejecutados
+
+git status --> indica los cambios que haz realizado pero no haz modificado en el commit
