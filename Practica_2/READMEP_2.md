@@ -7,7 +7,7 @@ Entrega 2 e indice para practicas Posteriores:
 - [Practica_1](/Proyecto_1/Script/Antonio_Perez.md)
 - [Practiva_2](/Practica_2/)
 - [Practiva_3](https://github.com/Antonio1886/Practica_3.3_Lenguaje_Inter.git)
-- [Practiva_4](/Practica_4/)
+- [Practiva_4](https://github.com/Antonio1886/Lenguajes_interpretativos.git)
 - [Practiva_5](/Practica_5/)
 - [Practiva_6](/Practica_6/)
 - [Practiva_7](/Practica_7/)
