@@ -8,7 +8,7 @@ Entrega 2 e indice para practicas Posteriores:
 - [Practica_3](https://github.com/Antonio1886/Practica_3.3_Lenguaje_Inter.git)
 - [Practica_5](/Practica_5/practica-5.md)
 - [Practica_6](https://github.com/Antonio1886/Practica6.git)
-- [Practica_7](/Practica_7/)
+- [Practica_7](https://github.com/Antonio1886/Practica6.git)
 - [Practica_8](/Practica_8/)
 - [Practica_9](/Practica_9/)
 - [Practica_10](/Practica_10/)
