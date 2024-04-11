@@ -1,13 +1,207 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="es-MX">
   <head>
-    <meta charset=" UTF-8">
-    <meta name= "viwport" content "widht=device-width, initial scale = 1.0">
-
-    <title> Hola Mundo </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hola Mundo desde HTML</title>
+    <meta
+      name="description"
+      content="En este documento aprenderemos los fundamentos del desarrollo web"
+    />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/intro-css.css" />
   </head>
   <body>
-    <h1> HOLA MUNDO DESDE GITHUB PAGES</h1>
-    <body> comenzamos a aprendes desarrollo web </body>
+    <!-- 
+      Comentario 
+      en HTML
+    -->
+    <h1 id="inicio">Introducción a <i>HTML</i></h1>
+    <p>Hola mundo desde HTML</p>
+    <p>
+      En este documento iremos revisando todas las etiquetas HTML más utilizadas
+      en desarrollo web.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repellat ea
+      voluptas explicabo, natus dolor ex ipsam, quia corrupti suscipit dolore
+      eaque dignissimos nisi blanditiis totam facere velit sapiente iure.
+    </p>
+    <ul>
+      <li><a href="#encabezados">Encabezados</a></li>
+      <li><a href="#etiquetas-texto">Etiquetas de Texto</a></li>
+      <li><a href="#listas">Listas</a></li>
+      <li><a href="#tablas">Tablas</a></li>
+      <li><a href="#enlaces">Enlaces</a></li>
+      <li><a href="#imagenes">Imágenes</a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+    <hr />
+    <h2 id="encabezados">Encabezados</h2>
+    <p>
+      HTML, tiene 6 niveles de encabezados, que nos sirven para dar jerarquía a
+      los títulos del contenido de nuestros documentos.
+    </p>
+    <h1>Encabezado nivel 1</h1>
+    <h2>Encabezado nivel 2</h2>
+    <h3>Encabezado nivel 3</h3>
+    <h4>Encabezado nivel 4</h4>
+    <h5>Encabezado nivel 5</h5>
+    <h6>Encabezado nivel 6</h6>
+    <a href="#inicio">Regresar al Inicio ☝🏻</a>
+    <hr />
+    <h2 id="etiquetas-texto">Etiquetas de Texto</h2>
+    <p>
+      Este grupo de etiquetas, permiten dar formato a nuestro texto, por
+      ejemplo: negrita, cursiva, subrayado, remarcado, letras pequeñas,
+      párrafos, citas textuales, subíndices, superíndices, saltos de línea y
+      divisiones semánticas.
+    </p>
+    <p>
+      Este es un párrafo.
+      <b>Este texto esta en negritas</b>. <br /><br />
+      <i>Este texto está en cursiva</i>.
+      <b><i>Este texto tiene negrita y cursiva</i></b
+      >.
+      <br />
+      <mark>Este texto esta remarcado</mark>. <u>Este texto esta subrayado</u>.
+      <small>Este texto esta en letras pequeñas</small>
+    </p>
+    <p>La fórmula del agua es H<sub>2</sub>O.</p>
+    <p>
+      La fórmula de la relatividad introducida por Einstein es e=mc<sup>2</sup>
+    </p>
+    <blockquote>
+      "Yo sólo sé, que no sé nada"
+      <br />
+      <cite>Sócrates</cite>
+    </blockquote>
+    <a href="#inicio">Regresar al Inicio ☝🏻</a>
+    <hr />
+    <h2 id="listas">Listas</h2>
+    <p>En HTML, principalmente tenemos 2 tipos de listas.</p>
+    <h3>Listas Desordenadas</h3>
+    <ul>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ul>
+    <h3>Listas Ordenadas</h3>
+    <ol>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol type="A">
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol start="100">
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol reversed>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <h3>Listas anidadas</h3>
+    <ul>
+      <li>
+        Primavera
+        <ol>
+          <li>Abril</li>
+          <li>
+            Mayo
+            <ul>
+              <li>Diá del Trabajo</li>
+              <li>Día de las Madres</li>
+              <li>Día del Maestro</li>
+            </ul>
+          </li>
+          <li>Junio</li>
+        </ol>
+      </li>
+      <li>
+        Verano
+        <ol>
+          <li>Julio</li>
+          <li>Agosto</li>
+          <li>Septiembre</li>
+        </ol>
+      </li>
+      <li>
+        Otoño
+        <ol>
+          <li>Octubre</li>
+          <li>Noviembre</li>
+          <li>Diciembre</li>
+        </ol>
+      </li>
+      <li>
+        Invierno
+        <ol>
+          <li>Enero</li>
+          <li>Febrero</li>
+          <li>Marzo</li>
+        </ol>
+      </li>
+    </ul>
+    <a href="#inicio">Regresar al Inicio ☝🏻</a>
+    <hr />
+    <h2 id="tablas">Tablas</h2>
+    <table border="1">
+      <tr>
+        <th>Ciudad</th>
+        <th>País</th>
+        <th>Continente</th>
+      </tr>
+      <tr>
+        <td>CDMX</td>
+        <td>México</td>
+        <td>América</td>
+      </tr>
+      <tr>
+        <td>Paris</td>
+        <td>Francia</td>
+        <td>Europa</td>
+      </tr>
+      <tr>
+        <td>Tokyo</td>
+        <td>Japón</td>
+        <td>Asia</td>
+      </tr>
+    </table>
+    <a href="#inicio">Regresar al Inicio ☝🏻</a>
+    <hr />
+    <h2 id="enlaces">Enlaces</h2>
+    <a href="otro.html">Ir a otro documento</a>
+    <a href="https://youtube.com/@jonmircha" target="_blank">
+      Canal de YouTube
+    </a>
+    <a href="mailto:jonmircha@gmail.com">jonmircha@gmail.com</a>
+    <a href="tel:5215512345678">5215512345678</a>
+    <a href="#inicio">Regresar al Inicio ☝🏻</a>
+    <hr />
+    <h2 id="imagenes">Imágenes</h2>
+    <img src="img/html-for-babies.jpg" alt="HTML para bebés" />
+    <img
+      src="img/periodic-table-of-html-elements.png"
+      alt="Tabla de las etiquetas HTML"
+    />
+    <img src="img/this-is-fine.gif" alt="This is Fine" />
+    <img src="img/kenai.svg" alt="kEnAi" />
+    <img src="img/git-js.webp" alt="Git y JS" />
+    <a href="#inicio">Regresar al Inicio ☝🏻</a>
+    <script src="js/intro-js.js"></script>
   </body>
 </html>
