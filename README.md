@@ -14,7 +14,7 @@ Entrega 2 e indice para practicas Posteriores:
 - [Practica_10](/Practica_10/)
 - [Practica_11 Git](https://github.com/Antonio1886/Antonio1886.git)
 - [Practica_11 Web ](https://antonio1886.github.io/Antonio1886/)
-- [Practica_12](/Practica_12/)
+- [Practica_12](https://github.com/Antonio1886/vigitlantes.git)
 - [Practica_13](/Practica_13/)
 - [Practica_14](/Practica_14/)
 - [Practica_15](/Practica_15/)
